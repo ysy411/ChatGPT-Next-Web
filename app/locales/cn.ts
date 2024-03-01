@@ -291,10 +291,10 @@ const cn = {
           Placeholder: "OpenAI API Key",
         },
 
-        Endpoint: {
-          Title: "接口地址",
-          SubTitle: "除默认地址外，必须包含 http(s)://",
-        },
+        // Endpoint: {
+        //   Title: "接口地址",
+        //   SubTitle: "除默认地址外，必须包含 http(s)://",
+        // },
       },
       Azure: {
         ApiKey: {
