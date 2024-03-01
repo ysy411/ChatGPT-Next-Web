@@ -33,7 +33,6 @@ export function ModelConfigList(props: {
               </option>
             ))}
         </Select>
-          <!--{v.displayName}({v.provider?.providerName})-->
       </ListItem>
       <ListItem
         title={Locale.Settings.Temperature.Title}
