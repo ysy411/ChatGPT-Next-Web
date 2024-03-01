@@ -29,10 +29,11 @@ export function ModelConfigList(props: {
             .filter((v) => v.available)
             .map((v, i) => (
               <option value={v.name} key={i}>
-                {v.displayName}({v.provider?.providerName})
+                {v.displayName}
               </option>
             ))}
         </Select>
+          <!--{v.displayName}({v.provider?.providerName})-->
       </ListItem>
       <ListItem
         title={Locale.Settings.Temperature.Title}
