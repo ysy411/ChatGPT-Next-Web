@@ -963,7 +963,7 @@ export function Settings() {
 
                   {accessStore.provider === "OpenAI" ? (
                     <>
-                     
+
                       <ListItem
                         title={Locale.Settings.Access.OpenAI.ApiKey.Title}
                         subTitle={Locale.Settings.Access.OpenAI.ApiKey.SubTitle}
